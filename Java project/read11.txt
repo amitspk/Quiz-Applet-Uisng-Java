@@ -1,0 +1,60 @@
+1 What is the name of the method used to start a thread execution?
+A. init()	
+B. start()
+C. run()
+D. resume()
+ANSWER: B
+2 Which cannot directly cause a thread to stop executing?
+A. Calling the SetPriority() method on a Thread object
+B. Calling the wait() method on an object
+C. Calling notify() method on an object
+D. Calling read() method on an InputStream object
+ANSWER: C
+3 Which of the following will directly stop the execution of a Thread?
+A. wait()	
+B. notify()
+C. notifyall()	
+D. exits synchronized code
+ANSWER: A
+4. Which method must be defined by a class implementing the java.lang.Runnable interface?
+A. void run()	
+B. public void run()
+C. public void start()
+D. void run(int priority)
+ANSWER: B
+5. Which will contain the body of the thread?
+A. run()	
+B. start()
+C. stop()	
+D. main()
+ANSWER: A
+6 Which method registers a thread in a thread scheduler?
+A. run()	
+B. construct()
+C. start()
+D. register()
+ANSWER: C
+7 Which class or interface defines the wait(), notify(),and notifyAll() methods?
+A. Object
+B. Thread
+C. Runnable
+D. Class
+ANSWER: B
+8 Suppose that you would like to create an instance of a new Map that has an iteration order that is the same as the iteration order of an existing instance of a Map. Which concrete implementation of the Map interface should be used for the new instance?
+A. TreeMap
+B. HashMap
+C. LinkedHashMap
+D. The answer depends on the implementation of the existing instance.
+ANSWER: C
+9 Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+A. java.lang.String	
+B. java.lang.Double
+C. java.lang.StringBuffer
+D. java.lang.Character
+ANSWER: C
+10 Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but whose methods are not synchronized?
+A. java.util.HashSet	
+B. java.util.LinkedHashSet
+C. java.util.List
+D. java.util.ArrayList
+ANSWER: D
